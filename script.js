@@ -1,7 +1,7 @@
 const generated_link = document.getElementById('generated_link');
 const fName = document.getElementById('fName');
 const mName = document.getElementById('mName');
-let f_link = "https://mayborg121.github.io/hb/h.html/" ;
+let f_link = "https://mayborg121.github.io/bw/" ;
 let link_copy = document.getElementById('link_copy');
 
 function gen_link(){
@@ -25,7 +25,7 @@ function gen_link(){
 
 
 
-    const gen_link = String("https://mayborg121.github.io/hb/h.html/"+"?"+"n="+fName.value+"&"+"m="+mName.value+"&"+"d="+formattedDate) ;
+    const gen_link = String("https://mayborg121.github.io/bw/"+"?"+"n="+fName.value+"&"+"m="+mName.value+"&"+"d="+formattedDate) ;
 
     
     
