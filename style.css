@@ -1,0 +1,171 @@
+body {
+    background-image: url(img/backgroundforform.svg);
+    display: flex; /* Enable Flexbox */
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#heading{
+    margin: 0 0 0 -20px ;
+    display: flex;
+    flex-direction: row;
+    color: hsl(313, 73%, 88%);
+    font-size: 1.5rem;
+    align-items: center;
+}
+#heading img{
+    width: 4.2rem;
+    height: 4.2rem;
+    margin: -15px -1px 0 0;
+    opacity: 80%;
+    transform: rotate(-25deg);
+}
+
+#details{
+    margin-top: -30px;
+    display: flex; /* Enable Flexbox */
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: auto;
+    width: 300px; 
+    background-color: hsla(180, 7%, 11%, 0.777);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(16, 15, 15, 0.3);
+}
+#details input{
+    background-color: hsla(267, 15%, 29%, 0.985);
+    color: hsla(275, 52%, 81%, 0.989);
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px;
+    border: solid 2px;
+    border-color: hsla(267, 15%, 29%, 0.985);
+    border-radius: 8px;
+    width: 80%;
+}
+
+#details button {
+    background-color: hsla(331, 98%, 46%, 0.878);
+    color: rgb(240, 223, 242);
+    font-size: 1.1rem;
+    margin: 5px;
+    padding: 10px;
+    border: solid 2px;
+    border-color: hsla(331, 98%, 46%, 0.878);
+    border-radius: 30px;
+    width: 50%;
+    overflow: hidden;
+    transform: 0.2s;
+    cursor: pointer;
+}
+#details button:hover{
+    background-color: hsla(334, 100%, 57%, 0.941);
+    box-shadow: 0 0 10px rgb(245, 137, 249);
+    transform: scale(1.05);
+}
+
+
+
+#link_copy{
+    margin-top: -20px;
+    display: flex; /* Enable Flexbox */
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: auto;
+    width: 310px; 
+    background-color: hsla(180, 81%, 6%, 0.538);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(16, 15, 15, 0.3);
+}
+
+#link_container {
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+    background-color: hsla(146, 13%, 42%, 0.711);
+    color: rgb(227, 255, 247);
+    border: solid 2px;
+    border-color: hsla(173, 10%, 65%, 0);
+    border-radius: 12px;
+    overflow-wrap: break-word;
+}
+
+#generated_link{
+    padding: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+#copyButton {
+    background-color: hsla(121, 53%, 51%, 0.941);
+    color: rgb(242, 252, 251);
+    font-size: 1.1rem;
+    margin: 5px;
+    padding: 10px;
+    border: solid 2px;
+    border-color: hsla(175, 81%, 39%, 0);
+    border-radius: 30px;
+    width: 50%;
+    overflow: hidden;
+    transform: 0.2s;
+    cursor: pointer;
+
+}
+#copyButton:hover{
+    background-color: hsla(121, 53%, 51%, 0.941);
+    box-shadow: 0 0 12px rgb(152, 246, 177);
+    transform: scale(1.05);
+}
+
+
+#visit_link {
+    background-color: hsla(175, 56%, 52%, 0.941);
+    color: rgb(242, 252, 251);
+    font-size: 1.1rem;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border: solid 2px;
+    border-color: hsla(175, 81%, 39%, 0);
+    border-radius: 30px;
+    width: 50%;
+    overflow: hidden;
+    transform: 0.2s;
+    cursor: pointer;
+}
+#visit_link:hover{
+    background-color: hsla(175, 56%, 52%, 0.941);
+    box-shadow: 0 0 12px rgb(137, 249, 223);
+    transform: scale(1.05);
+}
+
+
+
+.footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(105, 1, 74);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+.footer p {
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 8px;
+    
+}
