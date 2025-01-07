@@ -1,6 +1,6 @@
 body {
     background-image: url(img/backgroundforform.svg);
-    background-color: rgb(105, 1, 74)
+    background-color: rgb(105, 1, 74);
     display: flex; /* Enable Flexbox */
     flex-direction: column;
     justify-content: center; /* Center horizontally */
