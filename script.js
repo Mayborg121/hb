@@ -25,8 +25,8 @@ function gen_link(){
 
 
 
-    const gen_link = String("https://mayborg121.github.io/bw/"+"?"+"n="+fName.value+"&"+"m="+mName.value+"&"+"d="+formattedDate) ;
 
+    const gen_link = String("https://mayborg121.github.io/bw/?" +"n=" + fName.value.trim() + "&" +"m=" + mName.value.trim() + "&" +"d=" + formattedDate);
     
     
     console.log(gen_link);
